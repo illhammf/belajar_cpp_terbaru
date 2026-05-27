@@ -2,7 +2,8 @@
 using namespace std;
 
 // Membuat atau Definisi fungsi dengan nama belajar
-void belajar() {
+void belajar()
+{
     cout << "--------------------------------" << endl;
     cout << "Hai!" << endl;
     cout << "Saya sedang belajar C++" << endl;
@@ -11,9 +12,9 @@ void belajar() {
 }
 
 // Fungsi utama
-int main() {
+int main()
+{
     // Memanggil fungsi belajar
-    belajar();
     belajar();
 
     return 0;

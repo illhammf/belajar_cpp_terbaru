@@ -26,7 +26,11 @@ int main()
     int angka = 5;
 
     // Memanggil fungsi faktorial
-    cout << "Nilai dari " << angka << "! adalah: " << faktorial(angka) << endl;
+    cout << "\n=== Faktorial ===" << endl;
+    cout << "Angka: " << angka << endl;
+    cout << "Cara menghitung faktorial dari " << angka << " adalah: " << angka << " * " << angka - 1 << " * " << angka - 2 << " * " << angka - 3 << " * " << angka - 4 << endl;
+    cout << "\nNilai dari " << angka << "! adalah: " << faktorial(angka) << endl;
+    cout << "---------------------------------" << endl;
 
     return 0;
 }
